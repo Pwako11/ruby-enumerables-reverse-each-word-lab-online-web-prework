@@ -5,7 +5,7 @@ def reverse_each_word(sentence1)
   i = 0 
   new = sentence1.split(' ')
   
-  new.collect { }
+  new.collect {|i| i.reverse }
   while i < new.length do
     rev.push(new[i].reverse)
     i += 1

@@ -7,11 +7,4 @@ def reverse_each_word(sentence1)
   
   new.collect {|i| i.reverse }.join(" ")
   
-  # while i < new.length do
-  #   rev.push(new[i].reverse)
-  #   i += 1
-  # end 
-  # rev.collect.join
-  # rev.join(" ")
-  
 end

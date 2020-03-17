@@ -9,6 +9,6 @@ def reverse_each_word(sentence1)
     rev.push(new[i].reverse)
     i += 1
   end 
-  rev.join(" ").collect
+  rev.join(" ")
   binding.pry
 end
